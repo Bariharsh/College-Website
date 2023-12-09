@@ -1,0 +1,96 @@
+/* body styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(54, 44, 44);
+    color: white;
+}
+/* navbar styling */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index=-1;
+    opacity: 0.4;
+} */
+h2{
+    margin: 24px 20px;
+    position: relative;
+    left: 10rem;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+#nav-section{
+    position: relative;
+    left: 40rem;
+}
+
+/* home section */
+#home{
+    position: relative;
+    left:57rem;
+    top: 3.5rem;
+}
+/* #home::before{
+    content:"";
+    background:url(../images/goal.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+
+} */
+#container2{
+    display: flex;
+}
+#container2 p{
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+/* utility class */
+.h-primary{
+    font-size: 3rem;
+}
+.container p{
+    font-size: 1.3rem;
+}
+/* button styling */
+.btn{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: white;
+    border: red;
+}
+/* footer styling */
+#foot{
+    position: relative;
+    top: 3rem;
+}
+.f-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-container div{
+    padding: 2rem;
+}
