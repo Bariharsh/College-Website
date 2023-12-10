@@ -51,15 +51,7 @@ h2{
     left:57rem;
     top: 3.5rem;
 }
-/* #home::before{
-    content:"";
-    background:url(../images/goal.jpg);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
 
-} */
 #container2{
     display: flex;
 }
